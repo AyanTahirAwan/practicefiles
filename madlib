@@ -1,0 +1,26 @@
+while True:
+    play=input("\nPress P to play \n Q to quit.")
+
+    if play == 'P':
+     try: 
+
+        print("\nA madlibs game.")
+        print("Roses are ____")
+        print("Violets are _____")
+        print("If you are _____ I don't like you.")
+
+
+        input1=input ("\nEnter adjective:")
+        input2=input ("Enter adjective:")
+        input3=input ("Enter noun/adjective:")
+
+        print("\nRoses are "+ input1)
+        print("Violets are "+ input2)
+        print("If you are "+ input3+" I don't like you.")
+
+     except play != 'P' or 'Q':
+        print("Wrong key.")
+
+    elif play == 'Q': 
+     print(" Goodbye.")
+     break
